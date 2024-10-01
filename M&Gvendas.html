@@ -6,11 +6,27 @@ div {
   padding: 8px;
 }
 
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #4CAF50;
+<html>
+<head>
+<style>
+h1{
+  
+  color: green;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes example {
+  0%   {color: green;}
+  25%  {color: orange;}
+  50%  {color: yellow;}
+  75%  {color: pink;}
+  90%  {color: blue;}
+  100% {color: purple;}
+}
+</style>
+</head>
 
 p {
   text-indent: 50px;
