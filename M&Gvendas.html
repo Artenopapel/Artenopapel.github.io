@@ -1,6 +1,13 @@
 <html>
 <head>
 <style>
+  @keyframes example {
+  0%   {background-color:yellow;}
+  25%  {background-color:orange;}
+  50%  {background-color:red;}
+  75%  {background-color:pink;}
+  100% {background-color:violet;}
+}
 div {
   border: 1px solid gray;
   padding: 8px;
@@ -9,7 +16,9 @@ div {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  color: #4CAF50;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 
